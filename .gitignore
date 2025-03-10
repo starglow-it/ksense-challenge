@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# TypeScript compiled output
+dist/
+build/
+out/
+*.js
+*.js.map
+*.d.ts
+
+# Except for configuration files that should be in JavaScript
+!jest.config.js
+!.eslintrc.js
+
+# AWS SAM / CloudFormation
+.aws-sam/
+samconfig.toml
+cloudformation-packaged.yaml
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.env
+.envrc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+coverage/
+.nyc_output/
+
+# Deployment packages
+*.zip
+*.tgz
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Serverless framework
+.serverless/
+serverless.env.yml
+
+# CDK
+cdk.out/
+cdk.context.json
+
+# Misc
+.tmp/
+temp/
+tmp/
+.cache/

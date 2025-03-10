@@ -1,0 +1,25 @@
+{
+  "name": "ksense-challenge",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000k\u0000s\u0000e\u0000n\u0000s\u0000e\u0000-\u0000c\u0000h\u0000a\u0000l\u0000l\u0000e\u0000n\u0000g\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+{
+  "scripts": {
+    "build": "tsc",
+    "bundle": "esbuild src/index.ts --bundle --minify --sourcemap --platform=node --target=es2020 --outfile=dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.758.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.147",
+    "@types/node": "^22.13.10",
+    "esbuild": "^0.25.1",
+    "typescript": "^5.8.2"
+  }
+}
